@@ -58,7 +58,7 @@ for key in decyzja1:
 
 print("---------")
 print("Max i min:")
-print("---------#")
+print("---------")
 
 for indexesOfNumber in indexesOfNumbers:
     listOfAttributes = []
@@ -71,7 +71,7 @@ for indexesOfNumber in indexesOfNumbers:
             listByKeys.append(value[indexesOfNumber])
         listOfAttributesByKey[key] = listByKeys
 
-    print("---------#")
+    print("---------")
     print("{} Max: {}; Min {}".format("a{}".format(str(indexesOfNumber + 1)), max(listOfAttributes),
                                       min(listOfAttributes)))
     unique("a{}".format(indexesOfNumber+1), listOfAttributes)
